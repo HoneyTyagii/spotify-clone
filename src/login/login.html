@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Player</title>
+    <link rel="icon" type="image/png" href="../assets/Spotify_Icon_RGB_Green.png" />
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="h-screen bg-green">
+    <main class="flex h-full w-full items-center justify-center">
+      <section class="flex flex-col items-center gap-8">
+        <img class="h-[20vh]" src="../assets/Spotify_Logo_RGB_Black.png" alt="spotify image" srcset="" />
+        <input
+          id="login-to-spotify"
+          type="button"
+          value="Login to Spotify"
+          class="h-12 w-64 rounded-md bg-dark text-white hover:cursor-pointer"
+        />
+      </section>
+    </main>
+    <script type="module" src="login.js"></script>
+  </body>
+</html>
