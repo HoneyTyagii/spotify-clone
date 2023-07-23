@@ -9,15 +9,17 @@ const authorizeUser = () => {
     window.open(url, "login", "width=800,height=600");
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
+
     const loginButton = document.getElementById("login-to-spotify");
     loginButton.addEventListener("click", authorizeUser);
+
 })
 
 window.setItemsInLocalStorage = ({ accessToken, tokenType, expiresIn }) => {
     localStorage.setItem(ACCESS_TOKEN, accessToken);
     localStorage.setItem(TOKEN_TYPE, tokenType);
-    localStorage.setItem(EXPIRES_IN, expiresIn);
+    localStorage.setItem(EXPIRES_IN, (Date.now() + (expiresIn * 1000)));
     window.location.href = APP_URL;
 
 }
@@ -29,6 +31,8 @@ window.addEventListener("load", () => {
     }
 
     if (window.opener !== null && !window.opener.closed) {
+
+
         window.focus();
         if (window.location.href.includes("error")) {
             window.close();
