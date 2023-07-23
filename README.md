@@ -8,6 +8,8 @@ The "spotify-clone" project is a web application that replicates the core functi
 
 ![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/34397129-e3be-4509-a17f-a9f052f774fe)
 
+![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/22be8c9e-748c-4121-8ac6-473fe336def1)
+
 ---
 
 <p align="center"><strong>Dashboard</strong></p>
