@@ -223,6 +223,8 @@ const fillContentForPlaylist = async (playlistId) => {
     </section>
     `
 
+
+
     console.log(playlist);
     loadPlaylistTracks(playlist)
 
