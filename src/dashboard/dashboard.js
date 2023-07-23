@@ -69,17 +69,18 @@ const fillContentForDashboard = () => {
     const playlistMap = new Map([["featured", "featured-playlist-items"], ["top playlists", "top-playlist-items"]]);
     let innerHTML = "";
     for (let [type, id] of playlistMap) {
-        innerHTML += `
-        <article class="p-4">
-          <h1 class="mb-4 text-2xl font-bold capitalize">${type}</h1>
-          <section id="${id}" class="featured-songs grid grid-cols-auto-fill-cards gap-4">
-           
-          </section>
-        </article>
-        `
+      innerHTML += `
+      <article class="p-4">
+        <h1 class="mb-4 text-2xl font-bold capitalize">${type}</h1>
+        <section id="${id}" class="featured-songs"> <!-- Removed the grid and gap classes -->
+         
+        </section>
+      </article>
+      `
     }
     pageContent.innerHTML = innerHTML;
-}
+  }
+
 
 const formatTime = (duration) => {
     const min = Math.floor(duration / 60_000);

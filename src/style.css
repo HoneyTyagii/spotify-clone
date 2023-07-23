@@ -32,3 +32,16 @@
 .track.playing .song-title {
   color: theme("colors.green");
 }
+
+.featured-songs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .featured-songs::-webkit-scrollbar {
+    display: none; 
+  }
+  
