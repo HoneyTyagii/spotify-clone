@@ -14,9 +14,9 @@ The "spotify-clone" project is a web application that replicates the core functi
 
 <p align="center"><strong>Dashboard</strong></p>
 
-![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/e69b377b-479a-436d-bff9-886e9fc57702)
+![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/fe4dc30d-da71-4f07-9584-1d7b1243d28e)
 
-![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/a13570bf-c5e8-40c1-bb10-319e9d8854ea)
+![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/511fd157-0efd-4197-aa8a-04e08645c0b2)
 
 ---
 
