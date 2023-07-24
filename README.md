@@ -22,6 +22,8 @@ The "spotify-clone" project is a web application that replicates the core functi
 
 <p align="center"><strong>Playlists</strong></p>
 
+![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/8a470cf3-946e-44cb-a421-6f41d4dde34a)
+
 ![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/1b7528e0-8d50-4d35-b055-d7a0439493e4)
 
 ![image](https://github.com/HoneyTyagii/spotify-clone/assets/78690656/b57c9bda-b3a3-4463-993c-dc397277419b)
