@@ -1,8 +1,8 @@
 import { ACCESS_TOKEN, EXPIRES_IN, TOKEN_TYPE } from "../common";
+import { APP_URL } from "../config";
 
 const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
-const REDIRECT_URI = "https://honey-tyagi-spotify-clone.vercel.app/login/login.html"
-const APP_URL = "https://honey-tyagi-spotify-clone.vercel.app";
+const REDIRECT_URI = `${APP_URL}/login/login.html`;
 const scopes = "user-top-read user-follow-read playlist-read-private user-library-read";
 const authorizeUser = () => {
     const url = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${REDIRECT_URI}&scope=${scopes}&show_dialog=true`;
